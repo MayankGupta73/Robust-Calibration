@@ -20,6 +20,11 @@ Directly install using pip
  pip install -r requirements.txt
 ```
 
+## Models:
+
+The trained models used in the paper can be found here:
+<a href="https://csciitd-my.sharepoint.com/:f:/g/personal/csy207571_iitd_ac_in/Eqw1L9xtJjdFrEXbreNrhi8B4jkiOd1tW2FXTgbE3vfLWg?e=CcLjki">Trained Models</a>
+
 ## Training scripts:
 
 Before running the training or evalutation scripts make sure to download the required scripts and fill in the empty paths in the corresponding dataset file in the `datasets` folder. For eg. GBCU dataset requires several paths in  `dataset/gbc_usg.py` to be completed.
@@ -31,7 +36,7 @@ python train.py --dataset gbc_usg --model gbcnet --schedule-steps 80 120 --epoch
 ```
 
 For other methods and datasets refer to the MDCA repository for scripts to run them. \\
-Note: The GBCNet model requires additional initialization weights `gbcnet_init_weights.pth`. Refer to the repository for those: <a href="https://github.com/sbasu276/GBCNet">GBCNet</a> 
+Note: The GBCNet model requires additional initialization weights `gbcnet_init_weights.pth`. Refer to the repository for those: <a href="https://github.com/sbasu276/GBCNet">GBCNet</a>
 
 ## Evaluation scripts:
 
